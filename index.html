@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fcf9fc">
+  <meta name="description" content="Aayush Negi's portfolio. Explore full-stack projects, AI agent workflows, and a playful approach to engineering.">
+  <title>Aayush Negi — Engineer &amp; Builder</title>
+  <script src="appearance.js?v=20260916-2"></script>
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png"><link rel="icon" href="assets/favicon-64.png" sizes="64x64" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;800&amp;display=swap">
+  <link rel="stylesheet" href="styles.css?v=20260918-cleanup">
+  <script src="script.js?v=20260918-cleanup" defer></script>
+  <script src="playground.js?v=20260918-accessibility" defer></script>
+  <script src="email.js?v=20260918-accessibility" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page-loader character-loader" id="page-loader" aria-label="Welcome to Aayush Negi's portfolio">
+    <div class="character-intro-top"><span>an<span class="brand-dot">.</span> / PORTFOLIO</span><button id="intro-skip" type="button">Skip intro &#8599;</button></div>
+    <div class="character-stage" aria-hidden="true">
+      <div class="character-name"><span>AAYUSH</span><span class="character-surname">NEGI</span></div>
+      <div class="character-portrait"><img src="assets/intro-character.png" width="460" height="460" alt="" fetchpriority="high"><span class="character-hello">oh, hey there.</span></div>
+    </div>
+    <div class="character-intro-bottom"><span>CURIOUS MIND. CREATIVE CODE.</span><span aria-hidden="true"><span id="intro-count">000</span> / 100</span></div>
+    <div class="loader-track" aria-hidden="true"><span id="intro-progress"></span></div>
+  </div>
+  <header class="header wrap">
+    <a class="logo" href="#home" aria-label="Aayush Negi — Home">an<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#playground">Playground</a></nav>
+    <div class="header-actions"><button class="theme-toggle" id="theme-toggle" type="button" hidden aria-label="Enable dark mode" title="Enable dark mode"><svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button><a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a></div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> ENGINEER BY MINDSET. BUILDER BY INSTINCT.</div>
+        <h1>Serious about code.<br><span class="serif">Curious</span> about<br>everything.</h1>
+        <p class="hero-greeting">Hey, I&rsquo;m Aayush :)</p><p class="intro">An engineer turning complex problems into thoughtful digital experiences. A little curiosity, a lot of code, and care in every detail.</p>
+        <div class="hero-actions"><a class="button dark" href="#work">Explore my work <span>↗</span></a><a class="text-link" href="#about">A little about me <span>→</span></a></div>
+        <nav class="profile-links" aria-label="Profile links">
+          <a data-profile-link="github" href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
+          <a data-profile-link="linkedin" href="https://www.linkedin.com/in/aayush-negi-b468b926b/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
+          <a data-profile-link="resume" href="resume.html?v=20260918-accessibility">Resume &#8599;</a>
+        </nav>
+        <div class="availability"><span class="status-dot"></span> Open to internships & graduate opportunities</div>
+      </div>
+      <div class="hero-art" aria-label="Aayush's character and coding workspace">
+        <div class="hero-portrait"><span class="portrait-index">FIG. 01 / THE HUMAN</span><img src="assets/intro-character.png" width="460" height="460" alt="A hand-drawn character with a wonderfully busy head of hair"></div>
+        <div class="workspace">
+        <div class="workspace-heading"><span><span class="status-dot"></span> THE BUILDER'S DESK</span></div>
+        <div class="code-window"><div class="code"><span class="muted">01</span> <b>const</b> <span class="code-variable">developer</span> = <span class="code-bracket">{</span><br><span class="muted">02</span> &nbsp;<span class="code-property">name</span>: <em>"Aayush Negi"</em>,<br><span class="muted">03</span> &nbsp;<span class="code-property">fuel</span>: [<em>"tokens"</em>, <em>"curiosity"</em>],<br><span class="muted">04</span> &nbsp;<span class="code-property">mindset</span>: <em>"always learning"</em>,<br><span class="muted">05</span> &nbsp;<span class="code-property">readyToBuild</span>: <b class="code-boolean">true</b><br><span class="muted">06</span> };<br><span class="muted">07</span><br><span class="muted">08</span> <span class="code-variable">developer</span>.<strong>makeSomethingCool</strong>();<span class="caret"></span></div></div>
+        <div class="workspace-interests">
+          <p class="workspace-label">EXPLORING &amp; BUILDING</p>
+          <ul class="workspace-topics">
+            <li>DSA</li><li>Web Development</li><li>Machine Learning</li>
+            <li>Artificial Intelligence</li><li>Git/GitHub</li><li>Blockchain</li>
+          </ul>
+        </div>
+        
+      </div>
+      </div><div class="hero-footer"><span>BASED IN INDIA <span class="tiny-star">/</span> BUILDING FOR EVERYWHERE</span><a href="#work">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ticker-group"><span class="ticker-phrase">THOUGHTFUL ENGINEERING</span><span class="ticker-divider">/</span><span class="ticker-phrase">HUMAN EXPERIENCES</span><span class="ticker-divider">/</span><span class="ticker-phrase">ALWAYS CURIOUS</span><span class="ticker-divider">/</span><span class="ticker-phrase">GAINING EXPERIENCE</span><span class="ticker-divider">/</span><span class="ticker-phrase">BUILDING SOMETHING</span><span class="ticker-divider">/</span><span class="ticker-phrase">LEARNING SOMETHING</span><span class="ticker-divider">/</span></div><div class="ticker-group"><span class="ticker-phrase">THOUGHTFUL ENGINEERING</span><span class="ticker-divider">/</span><span class="ticker-phrase">HUMAN EXPERIENCES</span><span class="ticker-divider">/</span><span class="ticker-phrase">ALWAYS CURIOUS</span><span class="ticker-divider">/</span><span class="ticker-phrase">GAINING EXPERIENCE</span><span class="ticker-divider">/</span><span class="ticker-phrase">BUILDING SOMETHING</span><span class="ticker-divider">/</span><span class="ticker-phrase">LEARNING SOMETHING</span><span class="ticker-divider">/</span></div></div></div>
+
+    <section class="work wrap section" id="work">
+      <div class="section-top"><div><div class="eyebrow">01 / SELECTED WORK</div><h2>Ideas, made <span class="serif">real.</span></h2></div><p>A selection of projects across web development,<br>AI, and decentralized systems.</p></div>
+      <div class="selected-projects">
+        <article class="work-card work-card--orion">
+          <div class="work-visual" aria-label="Orion workflow illustration">
+            <div class="work-visual-heading"><span class="work-project-label">ORION</span></div>
+            <p class="work-visual-title">AI-powered browser IDE</p>
+            <ol class="work-flow"><li><span>01</span>Understand request</li><li><span>02</span>Coordinate agents</li><li><span>03</span>Execute tools</li><li><span>04</span>Preview project</li></ol><span class="work-visual-caption">WORKFLOW ILLUSTRATION</span>
+          </div>
+          <div class="work-copy"><p class="project-number">01 / AI development tools / Agent orchestration</p><h3>Orion</h3><p class="work-summary">A conversational workspace for creating, editing, and running web projects.</p><p class="work-role">AI agents coordinate code edits, tool execution, and live previews.</p><div class="chips"><span>Next.js</span><span>TypeScript</span><span>Convex</span><span>WebContainers</span></div><div class="work-links"><button type="button" class="text-link" data-project="orion" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true">&#8599;</span></button><a href="https://github.com/PleaseDoNotASKmeAnything/orion-decentralized-IDE" target="_blank" rel="noopener noreferrer" aria-label="Orion repository on GitHub">GitHub &#8599;</a></div></div>
+        </article>
+        <article class="work-card work-card--revpay">
+          <div class="work-visual" aria-label="RevPay workflow illustration">
+            <div class="work-visual-heading"><span class="work-project-label">REVPAY</span></div>
+            <p class="work-visual-title">Payment recovery workflow</p>
+            <ol class="work-flow"><li><span>01</span>Failed payment</li><li><span>02</span>Evaluate rules</li><li><span>03</span>Simulate recovery</li><li><span>04</span>Review outcome</li></ol><span class="work-visual-caption">WORKFLOW ILLUSTRATION</span>
+          </div>
+          <div class="work-copy"><p class="project-number">02 / Full-stack / Prototype</p><h3>RevPay</h3><p class="work-summary">An explainable recovery workflow with bounded retries, case tracking, and analytics.</p><p class="work-role">Rule-based decisions; recovery actions are simulated.</p><div class="chips"><span>React</span><span>FastAPI</span><span>PostgreSQL</span></div><div class="work-links"><button type="button" class="text-link" data-project="revpay" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true">&#8599;</span></button><a href="https://github.com/PleaseDoNotASKmeAnything/RevPay" target="_blank" rel="noopener noreferrer" aria-label="RevPay repository on GitHub">GitHub &#8599;</a></div></div>
+        </article>
+        <article class="work-card work-card--faceauth">
+          <div class="work-visual" aria-label="FaceAuth workflow illustration">
+            <div class="work-visual-heading"><span class="work-project-label">FACEAUTH</span></div>
+            <p class="work-visual-title">Decentralized authentication</p>
+            <ol class="work-flow"><li><span>01</span>Capture face</li><li><span>02</span>Encode &amp; hash</li><li><span>03</span>Record credentials</li><li><span>04</span>Verify identity</li></ol><span class="work-visual-caption">WORKFLOW ILLUSTRATION</span>
+          </div>
+          <div class="work-copy"><p class="project-number">03 / Biometrics / Blockchain prototype</p><h3>FaceAuth</h3><p class="work-summary">A facial authentication prototype with credential hashes recorded on a local Ethereum blockchain.</p><p class="work-role">Local blockchain prototype exploring biometric authentication.</p><div class="chips"><span>Python</span><span>Django</span><span>dlib</span><span>Ethereum</span></div><div class="work-links"><button type="button" class="text-link" data-project="faceauth" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true">&#8599;</span></button><a href="https://github.com/PleaseDoNotASKmeAnything/AI-Decentralized-identity-verification" target="_blank" rel="noopener noreferrer" aria-label="FaceAuth repository on GitHub">GitHub &#8599;</a></div></div>
+        </article>
+      </div>
+      <button type="button" class="work-motion-toggle" id="work-motion-toggle" aria-pressed="false" hidden>Pause background animation</button>
+    </section>
+
+    <section class="about about-personal section wrap" id="about" aria-labelledby="about-heading">
+
+      <div class="about-copy">
+        <div class="eyebrow">02 / A LITTLE ABOUT ME</div>
+        <h2 id="about-heading">Curiosity drives me.<br><span class="serif">Building</span> defines me.</h2>
+        <p>I&rsquo;m Aayush, an engineer at heart who enjoys making complex systems easier to use. My work brings together full-stack development, AI agents, and a curiosity for how things work beneath the interface.</p>
+        <p>My AI/ML internship at AML Enterprises gave me the opportunity to learn in a professional environment. I bring a thoughtful, collaborative approach to engineering, with a focus on understanding problems, communicating clearly, and continuously improving my craft.</p>
+        <p>I care about the details that make software useful: clear interfaces, explainable decisions, and workflows that handle more than the happy path.</p>
+        <div class="about-toolkit" aria-label="Technical toolkit">
+          <h3>What I work with</h3>
+          <div class="toolkit-row"><h4>Languages</h4><ul><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>C / C++</li><li>SQL</li></ul></div>
+          <div class="toolkit-row"><h4>Web &amp; backend</h4><ul><li>React / Next.js</li><li>FastAPI</li><li>Node.js</li><li>PostgreSQL</li><li>Convex</li></ul></div>
+          <div class="toolkit-row"><h4>AI &amp; tools</h4><ul><li>Google ADK</li><li>Gemini API</li><li>WebSockets</li><li>Git / GitHub</li><li>Linux</li></ul></div>
+        </div>
+        <a class="text-link about-contact" href="#contact">Let&rsquo;s build something useful <span aria-hidden="true">&#8599;</span></a>
+      </div>
+      <aside class="profile-panel" aria-label="Aayush Negi at a glance">
+        <div class="profile-panel-top"><span class="profile-panel-label">THE HUMAN BEHIND THE CODE</span></div>
+        <div class="profile-monogram" aria-hidden="true">an<span class="brand-dot">.</span></div>
+        <h3>Aayush Negi</h3>
+        <p class="profile-subtitle">Code with curiosity.<br>Build with purpose.</p>
+        <dl class="profile-facts">
+          <div><dt>EDUCATION</dt><dd>B.Tech in Computer Science &amp; Engineering</dd><dd class="profile-secondary">Jaypee Institute of Information Technology<br>2023 &ndash; 2027 (expected)</dd></div>
+          <div><dt>EXPERIENCE</dt><dd>AI/ML Intern &middot; AML Enterprises</dd><dd class="profile-secondary">June &ndash; July 2026</dd></div>
+        </dl>
+        <a class="profile-panel-link" href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">Explore my GitHub <span aria-hidden="true">&#8599;</span></a>
+      </aside>
+    </section>
+
+    <div class="ticker ticker-opportunities" aria-hidden="true"><div class="ticker-track"><div class="ticker-group"><span class="ticker-phrase">PROJECTS</span><span class="ticker-divider">/</span><span class="ticker-phrase">OPEN SOURCE</span><span class="ticker-divider">/</span><span class="ticker-phrase">FREELANCE</span><span class="ticker-divider">/</span><span class="ticker-phrase">JOB OPPORTUNITIES</span><span class="ticker-divider">/</span><span class="ticker-phrase">INTERNSHIP</span><span class="ticker-divider">/</span></div><div class="ticker-group"><span class="ticker-phrase">PROJECTS</span><span class="ticker-divider">/</span><span class="ticker-phrase">OPEN SOURCE</span><span class="ticker-divider">/</span><span class="ticker-phrase">FREELANCE</span><span class="ticker-divider">/</span><span class="ticker-phrase">JOB OPPORTUNITIES</span><span class="ticker-divider">/</span><span class="ticker-phrase">INTERNSHIP</span><span class="ticker-divider">/</span></div></div></div>
+
+    <section class="section wrap football-section" id="playground" aria-labelledby="playground-heading">
+      <span id="terminal" aria-hidden="true"></span>
+      <div class="section-top"><div><div class="eyebrow">03 / THE PLAYGROUND</div><h2 id="playground-heading">Off the clock.<br>On the <span class="serif">pitch.</span></h2></div><p>Four checkpoints. A little more about me.<br>Take a lap around the pitch.</p></div>
+      <div class="playground-invitation" id="playground-invitation">
+        <span class="invitation-eyebrow">AAYUSH FC</span>
+        <div class="invitation-ball" aria-hidden="true"><img src="assets/playground-player-96.png" alt="" width="48" height="48"></div>
+        <button type="button" id="playground-enter" aria-expanded="false" aria-controls="football-game" disabled><span class="sr-only">Enter the Playground</span><svg viewBox="0 0 115 7" class="pixel-invitation" aria-hidden="true" focusable="false" shape-rendering="crispEdges"><rect x="0" y="0" width="1" height="1"/><rect x="1" y="0" width="1" height="1"/><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="0" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="10" y="0" width="1" height="1"/><rect x="6" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/><rect x="10" y="1" width="1" height="1"/><rect x="6" y="2" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="10" y="2" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="10" y="3" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/><rect x="10" y="4" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="9" y="5" width="1" height="1"/><rect x="10" y="5" width="1" height="1"/><rect x="6" y="6" width="1" height="1"/><rect x="10" y="6" width="1" height="1"/><rect x="12" y="0" width="1" height="1"/><rect x="13" y="0" width="1" height="1"/><rect x="14" y="0" width="1" height="1"/><rect x="15" y="0" width="1" height="1"/><rect x="16" y="0" width="1" height="1"/><rect x="14" y="1" width="1" height="1"/><rect x="14" y="2" width="1" height="1"/><rect x="14" y="3" width="1" height="1"/><rect x="14" y="4" width="1" height="1"/><rect x="14" y="5" width="1" height="1"/><rect x="14" y="6" width="1" height="1"/><rect x="18" y="0" width="1" height="1"/><rect x="19" y="0" width="1" height="1"/><rect x="20" y="0" width="1" height="1"/><rect x="21" y="0" width="1" height="1"/><rect x="22" y="0" width="1" height="1"/><rect x="18" y="1" width="1" height="1"/><rect x="18" y="2" width="1" height="1"/><rect x="18" y="3" width="1" height="1"/><rect x="19" y="3" width="1" height="1"/><rect x="20" y="3" width="1" height="1"/><rect x="21" y="3" width="1" height="1"/><rect x="18" y="4" width="1" height="1"/><rect x="18" y="5" width="1" height="1"/><rect x="18" y="6" width="1" height="1"/><rect x="19" y="6" width="1" height="1"/><rect x="20" y="6" width="1" height="1"/><rect x="21" y="6" width="1" height="1"/><rect x="22" y="6" width="1" height="1"/><rect x="24" y="0" width="1" height="1"/><rect x="25" y="0" width="1" height="1"/><rect x="26" y="0" width="1" height="1"/><rect x="27" y="0" width="1" height="1"/><rect x="24" y="1" width="1" height="1"/><rect x="28" y="1" width="1" height="1"/><rect x="24" y="2" width="1" height="1"/><rect x="28" y="2" width="1" height="1"/><rect x="24" y="3" width="1" height="1"/><rect x="25" y="3" width="1" height="1"/><rect x="26" y="3" width="1" height="1"/><rect x="27" y="3" width="1" height="1"/><rect x="24" y="4" width="1" height="1"/><rect x="26" y="4" width="1" height="1"/><rect x="24" y="5" width="1" height="1"/><rect x="27" y="5" width="1" height="1"/><rect x="24" y="6" width="1" height="1"/><rect x="28" y="6" width="1" height="1"/><rect x="34" y="0" width="1" height="1"/><rect x="35" y="0" width="1" height="1"/><rect x="36" y="0" width="1" height="1"/><rect x="37" y="0" width="1" height="1"/><rect x="38" y="0" width="1" height="1"/><rect x="36" y="1" width="1" height="1"/><rect x="36" y="2" width="1" height="1"/><rect x="36" y="3" width="1" height="1"/><rect x="36" y="4" width="1" height="1"/><rect x="36" y="5" width="1" height="1"/><rect x="36" y="6" width="1" height="1"/><rect x="40" y="0" width="1" height="1"/><rect x="44" y="0" width="1" height="1"/><rect x="40" y="1" width="1" height="1"/><rect x="44" y="1" width="1" height="1"/><rect x="40" y="2" width="1" height="1"/><rect x="44" y="2" width="1" height="1"/><rect x="40" y="3" width="1" height="1"/><rect x="41" y="3" width="1" height="1"/><rect x="42" y="3" width="1" height="1"/><rect x="43" y="3" width="1" height="1"/><rect x="44" y="3" width="1" height="1"/><rect x="40" y="4" width="1" height="1"/><rect x="44" y="4" width="1" height="1"/><rect x="40" y="5" width="1" height="1"/><rect x="44" y="5" width="1" height="1"/><rect x="40" y="6" width="1" height="1"/><rect x="44" y="6" width="1" height="1"/><rect x="46" y="0" width="1" height="1"/><rect x="47" y="0" width="1" height="1"/><rect x="48" y="0" width="1" height="1"/><rect x="49" y="0" width="1" height="1"/><rect x="50" y="0" width="1" height="1"/><rect x="46" y="1" width="1" height="1"/><rect x="46" y="2" width="1" height="1"/><rect x="46" y="3" width="1" height="1"/><rect x="47" y="3" width="1" height="1"/><rect x="48" y="3" width="1" height="1"/><rect x="49" y="3" width="1" height="1"/><rect x="46" y="4" width="1" height="1"/><rect x="46" y="5" width="1" height="1"/><rect x="46" y="6" width="1" height="1"/><rect x="47" y="6" width="1" height="1"/><rect x="48" y="6" width="1" height="1"/><rect x="49" y="6" width="1" height="1"/><rect x="50" y="6" width="1" height="1"/><rect x="56" y="0" width="1" height="1"/><rect x="57" y="0" width="1" height="1"/><rect x="58" y="0" width="1" height="1"/><rect x="59" y="0" width="1" height="1"/><rect x="56" y="1" width="1" height="1"/><rect x="60" y="1" width="1" height="1"/><rect x="56" y="2" width="1" height="1"/><rect x="60" y="2" width="1" height="1"/><rect x="56" y="3" width="1" height="1"/><rect x="57" y="3" width="1" height="1"/><rect x="58" y="3" width="1" height="1"/><rect x="59" y="3" width="1" height="1"/><rect x="56" y="4" width="1" height="1"/><rect x="56" y="5" width="1" height="1"/><rect x="56" y="6" width="1" height="1"/><rect x="62" y="0" width="1" height="1"/><rect x="62" y="1" width="1" height="1"/><rect x="62" y="2" width="1" height="1"/><rect x="62" y="3" width="1" height="1"/><rect x="62" y="4" width="1" height="1"/><rect x="62" y="5" width="1" height="1"/><rect x="62" y="6" width="1" height="1"/><rect x="63" y="6" width="1" height="1"/><rect x="64" y="6" width="1" height="1"/><rect x="65" y="6" width="1" height="1"/><rect x="66" y="6" width="1" height="1"/><rect x="69" y="0" width="1" height="1"/><rect x="70" y="0" width="1" height="1"/><rect x="71" y="0" width="1" height="1"/><rect x="68" y="1" width="1" height="1"/><rect x="72" y="1" width="1" height="1"/><rect x="68" y="2" width="1" height="1"/><rect x="72" y="2" width="1" height="1"/><rect x="68" y="3" width="1" height="1"/><rect x="69" y="3" width="1" height="1"/><rect x="70" y="3" width="1" height="1"/><rect x="71" y="3" width="1" height="1"/><rect x="72" y="3" width="1" height="1"/><rect x="68" y="4" width="1" height="1"/><rect x="72" y="4" width="1" height="1"/><rect x="68" y="5" width="1" height="1"/><rect x="72" y="5" width="1" height="1"/><rect x="68" y="6" width="1" height="1"/><rect x="72" y="6" width="1" height="1"/><rect x="74" y="0" width="1" height="1"/><rect x="78" y="0" width="1" height="1"/><rect x="74" y="1" width="1" height="1"/><rect x="78" y="1" width="1" height="1"/><rect x="75" y="2" width="1" height="1"/><rect x="77" y="2" width="1" height="1"/><rect x="76" y="3" width="1" height="1"/><rect x="76" y="4" width="1" height="1"/><rect x="76" y="5" width="1" height="1"/><rect x="76" y="6" width="1" height="1"/><rect x="81" y="0" width="1" height="1"/><rect x="82" y="0" width="1" height="1"/><rect x="83" y="0" width="1" height="1"/><rect x="84" y="0" width="1" height="1"/><rect x="80" y="1" width="1" height="1"/><rect x="80" y="2" width="1" height="1"/><rect x="80" y="3" width="1" height="1"/><rect x="82" y="3" width="1" height="1"/><rect x="83" y="3" width="1" height="1"/><rect x="84" y="3" width="1" height="1"/><rect x="80" y="4" width="1" height="1"/><rect x="84" y="4" width="1" height="1"/><rect x="80" y="5" width="1" height="1"/><rect x="84" y="5" width="1" height="1"/><rect x="81" y="6" width="1" height="1"/><rect x="82" y="6" width="1" height="1"/><rect x="83" y="6" width="1" height="1"/><rect x="84" y="6" width="1" height="1"/><rect x="86" y="0" width="1" height="1"/><rect x="87" y="0" width="1" height="1"/><rect x="88" y="0" width="1" height="1"/><rect x="89" y="0" width="1" height="1"/><rect x="86" y="1" width="1" height="1"/><rect x="90" y="1" width="1" height="1"/><rect x="86" y="2" width="1" height="1"/><rect x="90" y="2" width="1" height="1"/><rect x="86" y="3" width="1" height="1"/><rect x="87" y="3" width="1" height="1"/><rect x="88" y="3" width="1" height="1"/><rect x="89" y="3" width="1" height="1"/><rect x="86" y="4" width="1" height="1"/><rect x="88" y="4" width="1" height="1"/><rect x="86" y="5" width="1" height="1"/><rect x="89" y="5" width="1" height="1"/><rect x="86" y="6" width="1" height="1"/><rect x="90" y="6" width="1" height="1"/><rect x="93" y="0" width="1" height="1"/><rect x="94" y="0" width="1" height="1"/><rect x="95" y="0" width="1" height="1"/><rect x="92" y="1" width="1" height="1"/><rect x="96" y="1" width="1" height="1"/><rect x="92" y="2" width="1" height="1"/><rect x="96" y="2" width="1" height="1"/><rect x="92" y="3" width="1" height="1"/><rect x="96" y="3" width="1" height="1"/><rect x="92" y="4" width="1" height="1"/><rect x="96" y="4" width="1" height="1"/><rect x="92" y="5" width="1" height="1"/><rect x="96" y="5" width="1" height="1"/><rect x="93" y="6" width="1" height="1"/><rect x="94" y="6" width="1" height="1"/><rect x="95" y="6" width="1" height="1"/><rect x="98" y="0" width="1" height="1"/><rect x="102" y="0" width="1" height="1"/><rect x="98" y="1" width="1" height="1"/><rect x="102" y="1" width="1" height="1"/><rect x="98" y="2" width="1" height="1"/><rect x="102" y="2" width="1" height="1"/><rect x="98" y="3" width="1" height="1"/><rect x="102" y="3" width="1" height="1"/><rect x="98" y="4" width="1" height="1"/><rect x="102" y="4" width="1" height="1"/><rect x="98" y="5" width="1" height="1"/><rect x="102" y="5" width="1" height="1"/><rect x="99" y="6" width="1" height="1"/><rect x="100" y="6" width="1" height="1"/><rect x="101" y="6" width="1" height="1"/><rect x="104" y="0" width="1" height="1"/><rect x="108" y="0" width="1" height="1"/><rect x="104" y="1" width="1" height="1"/><rect x="105" y="1" width="1" height="1"/><rect x="108" y="1" width="1" height="1"/><rect x="104" y="2" width="1" height="1"/><rect x="105" y="2" width="1" height="1"/><rect x="108" y="2" width="1" height="1"/><rect x="104" y="3" width="1" height="1"/><rect x="106" y="3" width="1" height="1"/><rect x="108" y="3" width="1" height="1"/><rect x="104" y="4" width="1" height="1"/><rect x="107" y="4" width="1" height="1"/><rect x="108" y="4" width="1" height="1"/><rect x="104" y="5" width="1" height="1"/><rect x="107" y="5" width="1" height="1"/><rect x="108" y="5" width="1" height="1"/><rect x="104" y="6" width="1" height="1"/><rect x="108" y="6" width="1" height="1"/><rect x="110" y="0" width="1" height="1"/><rect x="111" y="0" width="1" height="1"/><rect x="112" y="0" width="1" height="1"/><rect x="113" y="0" width="1" height="1"/><rect x="110" y="1" width="1" height="1"/><rect x="114" y="1" width="1" height="1"/><rect x="110" y="2" width="1" height="1"/><rect x="114" y="2" width="1" height="1"/><rect x="110" y="3" width="1" height="1"/><rect x="114" y="3" width="1" height="1"/><rect x="110" y="4" width="1" height="1"/><rect x="114" y="4" width="1" height="1"/><rect x="110" y="5" width="1" height="1"/><rect x="114" y="5" width="1" height="1"/><rect x="110" y="6" width="1" height="1"/><rect x="111" y="6" width="1" height="1"/><rect x="112" y="6" width="1" height="1"/><rect x="113" y="6" width="1" height="1"/></svg><span class="invitation-arrow" aria-hidden="true">&#8594;</span></button>
+        <span class="invitation-hint">Click or tap to start exploring</span>
+      </div>
+      <div class="football-game" id="football-game" hidden>
+        <div class="football-topbar"><span class="match-clock" aria-label="Match progress"><span aria-hidden="true">◷</span> <span id="football-clock" role="status" aria-label="Match time">00:00</span></span><span>AAYUSH FC <span aria-hidden="true">/</span> EXPLORER MODE</span><span id="football-score" role="status">0 / 4 explored</span><button type="button" id="playground-exit">Exit playground</button></div>
+        <div class="football-layout">
+          <div class="football-field-area">
+            <div class="football-field" id="football-field" tabindex="0" role="group" aria-label="Football playground. Move with arrow keys or W A S D, or select a numbered checkpoint." aria-describedby="football-help">
+              <canvas id="football-canvas" width="626" height="417" aria-hidden="true"></canvas>
+              <p id="football-unlock" role="status" hidden>a new checkpoint appeared at the centre</p>
+              <button class="field-checkpoint" style="left:23%;top:27%" data-checkpoint="0" disabled aria-label="Checkpoint 1: Who is Aayush?">01</button>
+              <button class="field-checkpoint" style="left:74%;top:27%" data-checkpoint="1" disabled aria-label="Checkpoint 2: What have you built?">02</button>
+              <button class="field-checkpoint" style="left:74%;top:73%" data-checkpoint="2" disabled aria-label="Checkpoint 3: My Interests !!">03</button>
+              <button class="field-checkpoint" style="left:23%;top:73%" data-checkpoint="3" disabled aria-label="Checkpoint 4: What is it like to work with me?">04</button>
+            <button class="field-checkpoint field-checkpoint--bonus" style="left:50%;top:50%" data-checkpoint="4" hidden disabled aria-label="Bonus checkpoint: My Medium page">05</button>
+            </div>
+            
+            <div class="football-prompt"><p id="football-arrival" role="status">Reach a checkpoint to explore.</p><button type="button" id="football-open" aria-haspopup="dialog" hidden>Press Enter to explore</button></div>
+            <p id="football-help">Arrow keys / WASD to move. Click or tap a checkpoint to run there, then press Enter or tap Explore.</p>
+            <div class="football-controls"><div class="direction-pad" aria-label="Movement controls"><button type="button" data-direction="up" aria-label="Move up" disabled>&uarr;</button><button type="button" data-direction="left" aria-label="Move left" disabled>&larr;</button><button type="button" data-direction="down" aria-label="Move down" disabled>&darr;</button><button type="button" data-direction="right" aria-label="Move right" disabled>&rarr;</button></div><button type="button" id="football-reset" disabled>Restart lap</button></div>
+          </div>
+
+        </div>
+
+      </div>
+        <noscript><div class="football-fallback"><h3>Meet Aayush</h3><p>Enable JavaScript to play, or explore these four questions:</p><details><summary>Who is Aayush?</summary><p>A Computer Science &amp; Engineering student at JIIT, expected to graduate in 2027, with an AI/ML internship at AML Enterprises.</p></details><details><summary>What have you built?</summary><p>Orion, RevPay, and FaceAuth explore AI development tools, payment recovery, and biometric authentication and many more projects. In love with building, developing and solving.</p></details><details><summary>My Interests !!</summary><p>Full-stack development, AI agents, data structures, Machine Learning, DevOps and decentralized systems. I like understanding how the pieces fit together, from the interface to the workflow behind it.</p></details><details><summary>What is it like to work with me?</summary><p>I value clear communication, thoughtful collaboration, and taking ownership of my work. I approach challenges with curiosity, stay open to feedback, and focus on delivering reliable, well-considered solutions.</p></details></div></noscript>
+    </section>
+
+    <div class="ticker ticker-opportunities ticker-hobbies" aria-hidden="true"><div class="ticker-track"><div class="ticker-group"><span class="ticker-phrase">READING BOOKS</span><span class="ticker-divider">/</span><span class="ticker-phrase">FOOTBALL</span><span class="ticker-divider">/</span><span class="ticker-phrase">HIGH ADRENALINE ACTIVITIES</span><span class="ticker-divider">/</span><span class="ticker-phrase">WATCHING MOVIES</span><span class="ticker-divider">/</span><span class="ticker-phrase">RUNNING</span><span class="ticker-divider">/</span><span class="ticker-phrase">YOGA</span><span class="ticker-divider">/</span></div><div class="ticker-group"><span class="ticker-phrase">READING BOOKS</span><span class="ticker-divider">/</span><span class="ticker-phrase">FOOTBALL</span><span class="ticker-divider">/</span><span class="ticker-phrase">HIGH ADRENALINE ACTIVITIES</span><span class="ticker-divider">/</span><span class="ticker-phrase">WATCHING MOVIES</span><span class="ticker-divider">/</span><span class="ticker-phrase">RUNNING</span><span class="ticker-divider">/</span><span class="ticker-phrase">YOGA</span><span class="ticker-divider">/</span></div></div></div>
+
+    <section class="contact wrap contact-personal" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-heading-row"><div><div class="eyebrow">04 / LET'S CONNECT</div><h2 id="contact-heading">Good things start<br>with a <span class="serif">hello.</span></h2></div><span class="contact-monogram" aria-hidden="true">an<span class="brand-dot">.</span></span></div>
+      <div class="contact-bottom"><p>For opportunities, collaborations, or a conversation about what comes next.<br>I&rsquo;d love to hear what you have in mind.</p><a class="button dark" id="email-button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=negiaayush0302%40gmail.com" target="_blank" rel="noopener noreferrer">Say hello <span aria-hidden="true">&#8599;</span></a></div>
+      <div class="contact-links" aria-label="Contact and profile links"><a href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a><a data-profile-link="linkedin" href="https://www.linkedin.com/in/aayush-negi-b468b926b/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a><a data-profile-link="resume" href="resume.html?v=20260918-accessibility">Resume &#8599;</a></div>
+      <a id="contact-status" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=negiaayush0302%40gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email Aayush Negi"><svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span id="contact-email-text">negiaayush0302@gmail.com</span></a><div class="email-tools"><button type="button" data-copy-email hidden>Copy email</button><span data-copy-status role="status"></span><input data-copy-fallback aria-label="Email address to copy" value="negiaayush0302@gmail.com" readonly hidden></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><a class="logo" href="#home" aria-label="Aayush Negi - Home">an<span class="brand-dot">.</span></a><span>© <span id="year"></span> Aayush Negi · Made with curiosity.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <dialog id="football-dialog" aria-labelledby="football-question" aria-describedby="football-answer">
+    <button type="button" id="football-close" class="dialog-close" aria-label="Close checkpoint">&times;</button>
+    <span id="football-kicker"></span><h2 id="football-question"></h2><p id="football-answer"></p>
+    <a id="football-link" href="#about">Meet Aayush</a>
+    <p id="football-complete" hidden>Full time! You have explored all five checkpoints.</p>
+    <button type="button" id="football-continue" class="button dark">Back to the pitch</button>
+  </dialog>
+  <dialog id="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <button class="dialog-close" aria-label="Close project details">&times;</button>
+    <div class="eyebrow" id="dialog-category"></div><h2 id="dialog-title"></h2><p id="dialog-description"></p>
+    <h3 id="dialog-role-heading"></h3><p id="dialog-role"></p>
+    <h3>Technical highlights</h3><ul id="dialog-highlights"></ul>
+    <p id="dialog-status"></p><a id="dialog-repository" class="text-link" target="_blank" rel="noopener noreferrer">View repository &#8599;</a>
+    <button class="button dark dialog-done" type="button">Close details</button>
+  </dialog>
+</body>
+</html>
