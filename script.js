@@ -95,7 +95,7 @@ if (profile.email) {
   const contact = document.getElementById('email-button');
   const composeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.email.trim())}`;
   contact.href = composeUrl;
-  contact.textContent = 'Say hello \u2197';
+  contact.textContent = 'Say hello';
   contact.target = '_blank';
   contact.rel = 'noopener noreferrer';
   const emailLink = document.getElementById('contact-status');

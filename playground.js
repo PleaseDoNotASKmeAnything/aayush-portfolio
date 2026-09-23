@@ -73,7 +73,7 @@
     document.getElementById('football-answer').textContent=cp.a;
     const link=document.getElementById('football-link');
     link.hidden=!cp.link;
-    link.href=cp.link; link.textContent=cp.label+' \u2197';
+    link.href=cp.link; link.textContent=cp.label;
     visited.add(active);
     updateClock();
     draw();
@@ -151,7 +151,7 @@
     });
   });
   const reset=document.getElementById('football-reset');reset.disabled=false;
-  reset.addEventListener('click',()=>{cancelAnimationFrame(frame);frame=0;last=0;keys.clear();visited.clear();stride=0;updateClock();bonusUnlocked=false;buttons[4].hidden=true;announcement.hidden=true;target=null;active=-1;x=y=50;buttons.forEach(b=>{b.classList.remove('is-active','is-visited');b.setAttribute('aria-pressed','false');});explore.hidden=true;arrival.textContent='Reach a checkpoint to explore.';document.getElementById('football-score').textContent='0 / 4 explored';document.getElementById('football-kicker').textContent='KICK-OFF';document.getElementById('football-question').textContent='Ready for another lap?';document.getElementById('football-answer').textContent='Move to any numbered checkpoint to explore. You can visit them in any order.';document.getElementById('football-complete').hidden=true;const link=document.getElementById('football-link');link.href='#about';link.textContent='Meet Aayush \u2197';draw();});
+  reset.addEventListener('click',()=>{cancelAnimationFrame(frame);frame=0;last=0;keys.clear();visited.clear();stride=0;updateClock();bonusUnlocked=false;buttons[4].hidden=true;announcement.hidden=true;target=null;active=-1;x=y=50;buttons.forEach(b=>{b.classList.remove('is-active','is-visited');b.setAttribute('aria-pressed','false');});explore.hidden=true;arrival.textContent='Reach a checkpoint to explore.';document.getElementById('football-score').textContent='0 / 4 explored';document.getElementById('football-kicker').textContent='KICK-OFF';document.getElementById('football-question').textContent='Ready for another lap?';document.getElementById('football-answer').textContent='Move to any numbered checkpoint to explore. You can visit them in any order.';document.getElementById('football-complete').hidden=true;const link=document.getElementById('football-link');link.href='#about';link.textContent='Meet Aayush';draw();});
   const enter = document.getElementById('playground-enter');
   const invitation = document.getElementById('playground-invitation');
   const game = document.getElementById('football-game');

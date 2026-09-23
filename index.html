@@ -11,18 +11,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@500;600;800&amp;display=swap">
-  <link rel="stylesheet" href="styles.css?v=20260918-cleanup">
-  <script src="script.js?v=20260918-cleanup" defer></script>
-  <script src="playground.js?v=20260918-accessibility" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20260923-mobile-fix">
+  <script src="script.js?v=20260923-mobile-fix" defer></script>
+  <script src="playground.js?v=20260923-mobile-fix" defer></script>
   <script src="email.js?v=20260918-accessibility" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="page-loader character-loader" id="page-loader" aria-label="Welcome to Aayush Negi's portfolio">
-    <div class="character-intro-top"><span>an<span class="brand-dot">.</span> / PORTFOLIO</span><button id="intro-skip" type="button">Skip intro &#8599;</button></div>
+    <div class="character-intro-top"><span>an<span class="brand-dot">.</span> / PORTFOLIO</span><button id="intro-skip" type="button">Skip intro <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></button></div>
     <div class="character-stage" aria-hidden="true">
       <div class="character-name"><span>AAYUSH</span><span class="character-surname">NEGI</span></div>
-      <div class="character-portrait"><img src="assets/intro-character.png" width="460" height="460" alt="" fetchpriority="high"><span class="character-hello">oh, hey there.</span></div>
+      <div class="character-portrait"><img src="assets/intro-sketch.svg" width="460" height="460" alt="" fetchpriority="high"><span class="character-hello">oh, hey there.</span></div>
     </div>
     <div class="character-intro-bottom"><span>CURIOUS MIND. CREATIVE CODE.</span><span aria-hidden="true"><span id="intro-count">000</span> / 100</span></div>
     <div class="loader-track" aria-hidden="true"><span id="intro-progress"></span></div>
@@ -30,7 +30,7 @@
   <header class="header wrap">
     <a class="logo" href="#home" aria-label="Aayush Negi — Home">an<span class="brand-dot">.</span></a>
     <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#playground">Playground</a></nav>
-    <div class="header-actions"><button class="theme-toggle" id="theme-toggle" type="button" hidden aria-label="Enable dark mode" title="Enable dark mode"><svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button><a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a></div>
+    <div class="header-actions"><button class="theme-toggle" id="theme-toggle" type="button" hidden aria-label="Enable dark mode" title="Enable dark mode"><svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/></svg><svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button><a class="nav-contact" href="#contact">Let’s talk <span><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></div>
   </header>
 
   <main id="main-content" tabindex="-1">
@@ -39,11 +39,11 @@
         <div class="eyebrow"><span class="status-dot"></span> ENGINEER BY MINDSET. BUILDER BY INSTINCT.</div>
         <h1>Serious about code.<br><span class="serif">Curious</span> about<br>everything.</h1>
         <p class="hero-greeting">Hey, I&rsquo;m Aayush :)</p><p class="intro">An engineer turning complex problems into thoughtful digital experiences. A little curiosity, a lot of code, and care in every detail.</p>
-        <div class="hero-actions"><a class="button dark" href="#work">Explore my work <span>↗</span></a><a class="text-link" href="#about">A little about me <span>→</span></a></div>
+        <div class="hero-actions"><a class="button dark" href="#work">Explore my work <span><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a><a class="text-link" href="#about">A little about me <span>→</span></a></div>
         <nav class="profile-links" aria-label="Profile links">
-          <a data-profile-link="github" href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
-          <a data-profile-link="linkedin" href="https://www.linkedin.com/in/aayush-negi-b468b926b/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
-          <a data-profile-link="resume" href="resume.html?v=20260918-accessibility">Resume &#8599;</a>
+          <a data-profile-link="github" href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">GitHub <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
+          <a data-profile-link="linkedin" href="https://www.linkedin.com/in/aayush-negi-b468b926b/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
+          <a data-profile-link="resume" href="resume.html?v=20260918-accessibility">Resume <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
         </nav>
         <div class="availability"><span class="status-dot"></span> Open to internships & graduate opportunities</div>
       </div>
@@ -74,7 +74,7 @@
             <p class="work-visual-title">AI-powered browser IDE</p>
             <ol class="work-flow"><li><span>01</span>Understand request</li><li><span>02</span>Coordinate agents</li><li><span>03</span>Execute tools</li><li><span>04</span>Preview project</li></ol><span class="work-visual-caption">WORKFLOW ILLUSTRATION</span>
           </div>
-          <div class="work-copy"><p class="project-number">01 / AI development tools / Agent orchestration</p><h3>Orion</h3><p class="work-summary">A conversational workspace for creating, editing, and running web projects.</p><p class="work-role">AI agents coordinate code edits, tool execution, and live previews.</p><div class="chips"><span>Next.js</span><span>TypeScript</span><span>Convex</span><span>WebContainers</span></div><div class="work-links"><button type="button" class="text-link" data-project="orion" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true">&#8599;</span></button><a href="https://github.com/PleaseDoNotASKmeAnything/orion-decentralized-IDE" target="_blank" rel="noopener noreferrer" aria-label="Orion repository on GitHub">GitHub &#8599;</a></div></div>
+          <div class="work-copy"><p class="project-number">01 / AI development tools / Agent orchestration</p><h3>Orion</h3><p class="work-summary">A conversational workspace for creating, editing, and running web projects.</p><p class="work-role">AI agents coordinate code edits, tool execution, and live previews.</p><div class="chips"><span>Next.js</span><span>TypeScript</span><span>Convex</span><span>WebContainers</span></div><div class="work-links"><button type="button" class="text-link" data-project="orion" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true"><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></button><a href="https://github.com/PleaseDoNotASKmeAnything/orion-decentralized-IDE" target="_blank" rel="noopener noreferrer" aria-label="Orion repository on GitHub">GitHub <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a></div></div>
         </article>
         <article class="work-card work-card--revpay">
           <div class="work-visual" aria-label="RevPay workflow illustration">
@@ -82,7 +82,7 @@
             <p class="work-visual-title">Payment recovery workflow</p>
             <ol class="work-flow"><li><span>01</span>Failed payment</li><li><span>02</span>Evaluate rules</li><li><span>03</span>Simulate recovery</li><li><span>04</span>Review outcome</li></ol><span class="work-visual-caption">WORKFLOW ILLUSTRATION</span>
           </div>
-          <div class="work-copy"><p class="project-number">02 / Full-stack / Prototype</p><h3>RevPay</h3><p class="work-summary">An explainable recovery workflow with bounded retries, case tracking, and analytics.</p><p class="work-role">Rule-based decisions; recovery actions are simulated.</p><div class="chips"><span>React</span><span>FastAPI</span><span>PostgreSQL</span></div><div class="work-links"><button type="button" class="text-link" data-project="revpay" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true">&#8599;</span></button><a href="https://github.com/PleaseDoNotASKmeAnything/RevPay" target="_blank" rel="noopener noreferrer" aria-label="RevPay repository on GitHub">GitHub &#8599;</a></div></div>
+          <div class="work-copy"><p class="project-number">02 / Full-stack / Prototype</p><h3>RevPay</h3><p class="work-summary">An explainable recovery workflow with bounded retries, case tracking, and analytics.</p><p class="work-role">Rule-based decisions; recovery actions are simulated.</p><div class="chips"><span>React</span><span>FastAPI</span><span>PostgreSQL</span></div><div class="work-links"><button type="button" class="text-link" data-project="revpay" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true"><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></button><a href="https://github.com/PleaseDoNotASKmeAnything/RevPay" target="_blank" rel="noopener noreferrer" aria-label="RevPay repository on GitHub">GitHub <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a></div></div>
         </article>
         <article class="work-card work-card--faceauth">
           <div class="work-visual" aria-label="FaceAuth workflow illustration">
@@ -90,7 +90,7 @@
             <p class="work-visual-title">Decentralized authentication</p>
             <ol class="work-flow"><li><span>01</span>Capture face</li><li><span>02</span>Encode &amp; hash</li><li><span>03</span>Record credentials</li><li><span>04</span>Verify identity</li></ol><span class="work-visual-caption">WORKFLOW ILLUSTRATION</span>
           </div>
-          <div class="work-copy"><p class="project-number">03 / Biometrics / Blockchain prototype</p><h3>FaceAuth</h3><p class="work-summary">A facial authentication prototype with credential hashes recorded on a local Ethereum blockchain.</p><p class="work-role">Local blockchain prototype exploring biometric authentication.</p><div class="chips"><span>Python</span><span>Django</span><span>dlib</span><span>Ethereum</span></div><div class="work-links"><button type="button" class="text-link" data-project="faceauth" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true">&#8599;</span></button><a href="https://github.com/PleaseDoNotASKmeAnything/AI-Decentralized-identity-verification" target="_blank" rel="noopener noreferrer" aria-label="FaceAuth repository on GitHub">GitHub &#8599;</a></div></div>
+          <div class="work-copy"><p class="project-number">03 / Biometrics / Blockchain prototype</p><h3>FaceAuth</h3><p class="work-summary">A facial authentication prototype with credential hashes recorded on a local Ethereum blockchain.</p><p class="work-role">Local blockchain prototype exploring biometric authentication.</p><div class="chips"><span>Python</span><span>Django</span><span>dlib</span><span>Ethereum</span></div><div class="work-links"><button type="button" class="text-link" data-project="faceauth" aria-haspopup="dialog" disabled>Project details <span aria-hidden="true"><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></button><a href="https://github.com/PleaseDoNotASKmeAnything/AI-Decentralized-identity-verification" target="_blank" rel="noopener noreferrer" aria-label="FaceAuth repository on GitHub">GitHub <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a></div></div>
         </article>
       </div>
       <button type="button" class="work-motion-toggle" id="work-motion-toggle" aria-pressed="false" hidden>Pause background animation</button>
@@ -110,7 +110,7 @@
           <div class="toolkit-row"><h4>Web &amp; backend</h4><ul><li>React / Next.js</li><li>FastAPI</li><li>Node.js</li><li>PostgreSQL</li><li>Convex</li></ul></div>
           <div class="toolkit-row"><h4>AI &amp; tools</h4><ul><li>Google ADK</li><li>Gemini API</li><li>WebSockets</li><li>Git / GitHub</li><li>Linux</li></ul></div>
         </div>
-        <a class="text-link about-contact" href="#contact">Let&rsquo;s build something useful <span aria-hidden="true">&#8599;</span></a>
+        <a class="text-link about-contact" href="#contact">Let&rsquo;s build something useful <span aria-hidden="true"><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a>
       </div>
       <aside class="profile-panel" aria-label="Aayush Negi at a glance">
         <div class="profile-panel-top"><span class="profile-panel-label">THE HUMAN BEHIND THE CODE</span></div>
@@ -121,7 +121,7 @@
           <div><dt>EDUCATION</dt><dd>B.Tech in Computer Science &amp; Engineering</dd><dd class="profile-secondary">Jaypee Institute of Information Technology<br>2023 &ndash; 2027 (expected)</dd></div>
           <div><dt>EXPERIENCE</dt><dd>AI/ML Intern &middot; AML Enterprises</dd><dd class="profile-secondary">June &ndash; July 2026</dd></div>
         </dl>
-        <a class="profile-panel-link" href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">Explore my GitHub <span aria-hidden="true">&#8599;</span></a>
+        <a class="profile-panel-link" href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">Explore my GitHub <span aria-hidden="true"><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a>
       </aside>
     </section>
 
@@ -165,8 +165,8 @@
 
     <section class="contact wrap contact-personal" id="contact" aria-labelledby="contact-heading">
       <div class="contact-heading-row"><div><div class="eyebrow">04 / LET'S CONNECT</div><h2 id="contact-heading">Good things start<br>with a <span class="serif">hello.</span></h2></div><span class="contact-monogram" aria-hidden="true">an<span class="brand-dot">.</span></span></div>
-      <div class="contact-bottom"><p>For opportunities, collaborations, or a conversation about what comes next.<br>I&rsquo;d love to hear what you have in mind.</p><a class="button dark" id="email-button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=negiaayush0302%40gmail.com" target="_blank" rel="noopener noreferrer">Say hello <span aria-hidden="true">&#8599;</span></a></div>
-      <div class="contact-links" aria-label="Contact and profile links"><a href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a><a data-profile-link="linkedin" href="https://www.linkedin.com/in/aayush-negi-b468b926b/" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a><a data-profile-link="resume" href="resume.html?v=20260918-accessibility">Resume &#8599;</a></div>
+      <div class="contact-bottom"><p>For opportunities, collaborations, or a conversation about what comes next.<br>I&rsquo;d love to hear what you have in mind.</p><a class="button dark" id="email-button" data-arrow="outbound" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=negiaayush0302%40gmail.com" target="_blank" rel="noopener noreferrer">Say hello <span aria-hidden="true"><svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></span></a></div>
+      <div class="contact-links" aria-label="Contact and profile links"><a href="https://github.com/PleaseDoNotASKmeAnything" target="_blank" rel="noopener noreferrer">GitHub <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a><a data-profile-link="linkedin" href="https://www.linkedin.com/in/aayush-negi-b468b926b/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a><a data-profile-link="resume" href="resume.html?v=20260918-accessibility">Resume <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a></div>
       <a id="contact-status" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=negiaayush0302%40gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email Aayush Negi"><svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span id="contact-email-text">negiaayush0302@gmail.com</span></a><div class="email-tools"><button type="button" data-copy-email hidden>Copy email</button><span data-copy-status role="status"></span><input data-copy-fallback aria-label="Email address to copy" value="negiaayush0302@gmail.com" readonly hidden></div>
     </section>
   </main>
@@ -174,7 +174,7 @@
   <dialog id="football-dialog" aria-labelledby="football-question" aria-describedby="football-answer">
     <button type="button" id="football-close" class="dialog-close" aria-label="Close checkpoint">&times;</button>
     <span id="football-kicker"></span><h2 id="football-question"></h2><p id="football-answer"></p>
-    <a id="football-link" href="#about">Meet Aayush</a>
+    <a id="football-link" data-arrow="outbound" href="#about">Meet Aayush</a>
     <p id="football-complete" hidden>Full time! You have explored all five checkpoints.</p>
     <button type="button" id="football-continue" class="button dark">Back to the pitch</button>
   </dialog>
@@ -183,7 +183,7 @@
     <div class="eyebrow" id="dialog-category"></div><h2 id="dialog-title"></h2><p id="dialog-description"></p>
     <h3 id="dialog-role-heading"></h3><p id="dialog-role"></p>
     <h3>Technical highlights</h3><ul id="dialog-highlights"></ul>
-    <p id="dialog-status"></p><a id="dialog-repository" class="text-link" target="_blank" rel="noopener noreferrer">View repository &#8599;</a>
+    <p id="dialog-status"></p><a id="dialog-repository" class="text-link" target="_blank" rel="noopener noreferrer">View repository <svg class="link-arrow" width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10"/></svg></a>
     <button class="button dark dialog-done" type="button">Close details</button>
   </dialog>
 </body>
