@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aayushnegi.vercel.app/sitemap.xml
