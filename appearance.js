@@ -1,7 +1,7 @@
 // Apply the saved theme before the first paint to avoid a light flash.
 (() => {
   const root = document.documentElement;
-  let theme = 'light';
+  let theme = 'dark';
   try {
     const savedTheme = localStorage.getItem('portfolio-editorial-theme');
     if (savedTheme === 'dark' || savedTheme === 'light') theme = savedTheme;
