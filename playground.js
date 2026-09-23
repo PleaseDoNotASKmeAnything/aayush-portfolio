@@ -6,8 +6,8 @@
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const checkpoints = [
     { x:23, y:27, q:'Who is Aayush?', a:'An engineer at heart, studying Computer Science & Engineering at JIIT (2023-2027, expected). I explored conversational AI during my AI/ML internship at AML Enterprises.', link:'#about', label:'More about me' },
-    { x:74, y:27, q:'What have you built?', a:'Orion, RevPay, and FaceAuth explore AI development tools, payment recovery, and biometric authentication. I enjoy building, developing, and solving problems across a growing collection of projects.', link:'#work', label:'Explore my projects' },
-    { x:74, y:73, q:'My Interests !!', a:'Full-stack development, AI agents, data structures, Machine Learning, DevOps and decentralized systems. I like understanding how the pieces fit together, from the interface to the workflow behind it.', link:'#about', label:'See my toolkit' },
+    { x:77, y:27, q:'What have you built?', a:'Orion, RevPay, and FaceAuth explore AI development tools, payment recovery, and biometric authentication. I enjoy building, developing, and solving problems across a growing collection of projects.', link:'#work', label:'Explore my projects' },
+    { x:77, y:73, q:'My Interests !!', a:'Full-stack development, AI agents, data structures, Machine Learning, DevOps and decentralized systems. I like understanding how the pieces fit together, from the interface to the workflow behind it.', link:'#about', label:'See my toolkit' },
     { x:23, y:73, q:'What is it like to work with me?', a:'I value clear communication, thoughtful collaboration, and taking ownership of my work. I approach challenges with curiosity, stay open to feedback, and focus on delivering reliable, well-considered solutions.', link:'#contact', label:'Start a conversation' }
   ];
   checkpoints.push({ x:50, y:50, q:'Find me on Medium', a:'Congratulations!! You unlocked the SUPER SECRET medium page :)', link:'https://medium.com/@negiaayush0302', label:'Visit my Medium page' });
